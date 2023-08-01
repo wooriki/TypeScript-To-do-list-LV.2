@@ -1,4 +1,4 @@
-# TTypeScript-To-do-list-LV.2
+# TypeScript-To-do-list-LV.2
 
 To-do-list-LV.2 redux , router 사용해서 ts로 변환해 보기
 
