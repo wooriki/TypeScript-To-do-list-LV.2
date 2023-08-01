@@ -1,0 +1,27 @@
+import { createGlobalStyle, DefaultTheme } from "styled-components";
+
+// 타입스크립트에서 createGlbalStyle > < DefaultTheme >
+export default createGlobalStyle<DefaultTheme>`
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gowun Dodum", sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    &:hover {
+        color: black;
+    }
+}
+`;
