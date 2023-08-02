@@ -1,6 +1,6 @@
-import { createGlobalStyle, DefaultTheme } from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
-export default createGlobalStyle<DefaultTheme>`
+export default createGlobalStyle`
 * {
     margin: 0 auto;
     padding: 0;

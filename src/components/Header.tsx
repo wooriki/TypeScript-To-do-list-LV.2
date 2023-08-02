@@ -4,7 +4,7 @@ const Header = () => {
     return (
         <HeaderTag>
             <header className="header">
-                <h3>My Todo List</h3>
+                <p className="title">My Todo List</p>
                 <p>TypeScript</p>
             </header>
         </HeaderTag>
@@ -22,7 +22,7 @@ const HeaderTag = styled.div`
         align-items: center;
         width: 100%;
     }
-    h3 {
+    .title {
         font-size: 18px;
         width: 50%;
         text-align: left;
