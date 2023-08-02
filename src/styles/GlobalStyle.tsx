@@ -1,6 +1,5 @@
 import { createGlobalStyle, DefaultTheme } from "styled-components";
 
-// 타입스크립트에서 createGlbalStyle > < DefaultTheme >
 export default createGlobalStyle<DefaultTheme>`
 * {
     margin: 0 auto;

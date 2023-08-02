@@ -5,35 +5,6 @@ import { readTodo } from "../redux/modules/todo";
 import { styled } from "styled-components";
 import { RootState } from "../redux/config/configStore";
 
-// styled
-// const DetailContainer = styled.div`
-//     display: flex;
-//     justify-content: center;
-// `;
-
-// const DetailFlexDiv = styled.div`
-//     display: flex;
-//     justify-content: space-between;
-// `;
-
-// const DetailBox = styled.div`
-//     border: 1px solid black;
-//     width: 600px;
-// `;
-
-// const DetailPtag = styled.p`
-//     margin-left: 10px;
-// `;
-
-// const MoveHomeButton = styled.button`
-//   margin: 10px 10px 0px 0px;
-//   height: 30px;
-// `;
-
-// const DetailH2 = styled.h2`
-//     margin-left: 10px;
-// `;
-
 function Detail() {
     const navigate = useNavigate();
     const dispatch = useDispatch();
@@ -48,7 +19,7 @@ function Detail() {
     });
 
     return (
-        <DetailWarrper>
+        <DetailWrapper>
             <div className="inner-detail">
                 <div>
                     <h5>{todo?.id.substring(0, 13)}</h5>
@@ -63,13 +34,13 @@ function Detail() {
                     Home
                 </button>
             </div>
-        </DetailWarrper>
+        </DetailWrapper>
     );
 }
 
 export default Detail;
 
-const DetailWarrper = styled.div`
+const DetailWrapper = styled.div`
     min-height: 80vh;
     display: flex;
     justify-content: center;
