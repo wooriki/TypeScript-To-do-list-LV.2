@@ -9,3 +9,6 @@ To-do-list-LV.2 redux , router 사용해서 ts로 변환해 보기
 -   원본 손상 없이 그대로 구현하는게 목표였다.
 
 # 2차 commit
+
+
+<img src="https://github.com/wooriki/TypeScript-To-do-list-LV.2/assets/109304556/ac40b77b-aa89-4241-9fad-89c49a535b70"/>
